@@ -103,9 +103,10 @@ let total = precoItem1 + precoItem2 + precoItem3
 
 alert(`Tudo deu ${total}`)
 
-if(estudante == sim) {
-   
-} else(estudante == não) 
+if(estudante == sim) { 
+
+} else(estudante == não)
+
+  let desconto = (`${total} * 0.2 `)
   
-let desconto = (`${total} * 0.2 `)
 alert(`Com desconto fica ${desconto}`) 
