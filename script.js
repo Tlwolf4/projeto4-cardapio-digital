@@ -46,7 +46,7 @@ let precoItem1 = 0
 switch(prato1) {
 case 1:
     itemnome1 = "Hamburguer"
-    precoitem1 = 20
+    precoItem1 = 20
     alert("Hamburguer- R$ 20  ")
     break
 case 2:
@@ -114,33 +114,33 @@ let total = precoItem1 + precoItem2 + precoItem3
 if (estudante == "sim" && total >= 50) {
 alert(`Obrigado ${nome}
 Pratos escolhidos:
-${itemnome1} de ${precoItem1}
-${itemnome2} de ${precoItem2}
-${itemnome3} de ${precoItem3}
-Total sem desconto: ${total}
-Total com desconto: ${total - (total * 0.15)}`)
+${itemnome1} de R$${precoItem1}
+${itemnome2} de R$${precoItem2}
+${itemnome3} de R$${precoItem3}
+Total sem desconto: R$${total}
+Total com desconto: R$${total - (total * 0.15)}`)
 } else if (estudante == "sim" && total <= 50) {
     alert(`Obrigado ${nome}
 Pratos escolhidos:
-${itemnome1} de ${precoItem1}
-${itemnome2} de ${precoItem2}
-${itemnome3} de ${precoItem3}
-Total sem desconto: ${total}
-Total com desconto: ${total - (total * 0.10)}`)
+${itemnome1} de R$${precoItem1}
+${itemnome2} de R$${precoItem2}
+${itemnome3} de R$${precoItem3}
+Total sem desconto: R$${total}
+Total com desconto: R$${total - (total * 0.10)}`)
 } else if (estudante == "não" && total >= 50) {
     alert(`Obrigado ${nome}
 Pratos escolhidos:
-${itemnome1} de ${precoItem1}
-${itemnome2} de ${precoItem2}
-${itemnome3} de ${precoItem3}
-Total sem desconto: ${total}
-Total com desconto: ${total - (total * 0.05)}`)
+${itemnome1} de R$${precoItem1}
+${itemnome2} de R$${precoItem2}
+${itemnome3} de R$${precoItem3}
+Total sem desconto: R$${total}
+Total com desconto: R$${total - (total * 0.05)}`)
 } else {
     alert(`Obrigado ${nome}
 Pratos escolhidos:
-${itemnome1} de ${precoItem1}
-${itemnome2} de ${precoItem2}
-${itemnome3} de ${precoItem3}
-Total sem desconto: ${total}
-Total com desconto: ${total}`)
+${itemnome1} de R$${precoItem1}
+${itemnome2} de R$${precoItem2}
+${itemnome3} de R$${precoItem3}
+Total sem desconto: R$${total}
+Total com desconto: R$${total}`)
 }
