@@ -1,15 +1,5 @@
 // CARDAPIO
  
-//let haburguer = 1
-//let pizza = 2
-//let refrigerante = 3
-//let fritas = 4
-
-//1 = R$20
-//2 = R$35
-//3 = R$5
-//4 = R$12
-
 alert(`Olá bem vindo ao cardapio digital
          aperte "OK" para continuar`)
 
@@ -19,27 +9,29 @@ let nome = prompt("Digite seu nome para regitro")
 let estudante = prompt(`Voce é estudante? (sim/não)`)
     
 let  prato1 = parseInt(prompt(`Menu:
-   Hanbúrguer- R$ 20
-   Pizza- R$ 35  
-   refrigerante- R$ 5
-   batatas fritas - R$ 12
-   
+   (1)Hanbúrguer- R$ 20
+   (2)Pizza- R$ 35  
+   (3)Refrigerante- R$ 5
+   (4)Batatas fritas - R$ 12
+   (5) Sair
    Escolha o seu primeiro prato! `))
-    
+    if (prato1 == 5) {
+     alert("Obrigado pela visita !!")
+    }
 let  prato2 = parseInt(prompt(`Menu:
-   Hanbúrguer- R$ 20
-   Pizza- R$ 35  
-   refrigerante- R$ 5
-   batatas fritas - R$ 12
-   
+   (1)Hanbúrguer- R$ 20
+   (2)Pizza- R$ 35  
+   (3)Refrigerante- R$ 5
+   (4)Batatas fritas - R$ 12
+   (5) Sair
    Escolha o seu segundo prato! `))
 
    let  prato3 = parseInt(prompt(`Menu:
-   Hanbúrguer- R$ 20
-   Pizza- R$ 35  
-   refrigerante- R$ 5
-   batatas fritas - R$ 12
-   
+  (1)Hanbúrguer- R$ 20
+   (2)Pizza- R$ 35  
+   (3)Refrigerante- R$ 5
+   (4)Batatas fritas - R$ 12
+   (5) Sair
    Escolha o seu terceiro prato! `))
 
 let precoItem1 = 0
